@@ -1,0 +1,1 @@
+docker exec -it f_mysql mysql -uroot -p
