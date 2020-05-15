@@ -1,2 +1,5 @@
 ./docker/db
 ./docker/logs
+
+./src/server/*.gch
+./src/server/*.o
