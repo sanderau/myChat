@@ -8,6 +8,6 @@ services:
         volumes:
             - ./db:/var/lib/mysql
         environment:
-            - MYSQL_ROOT_PASSWORD=sheep
+            - MYSQL_ROOT_PASSWORD=${ROOT_PASS}
         ports:
             - "3306:3306"
